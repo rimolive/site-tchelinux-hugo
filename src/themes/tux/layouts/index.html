@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Introspect by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header / Menu principal  -->
+			{{ partial "global/header.html" . }}
+
+		<!-- Banner/ divulgação de evento -->
+			{{ partial "banner/evento.html" .}}
+
+		<!-- Section 1 / Seção com resumo da história do grupo -->
+			{{ partial "sections/sobre.html" . }}
+
+		<!-- Section 2 / Publicações blog/ajuda-->
+			{{ partial "sections/blog.html" . }}
+
+		<!-- Section 3 / Links úteis -->
+			{{ partial "sections/links.html" . }}
+
+		<!-- Footer -->
+			{{ partial "global/footer.html" . }}
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

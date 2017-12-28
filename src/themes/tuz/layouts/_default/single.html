@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+{{ partial "global/head.html" . }}
+
+<body>
+
+    {{partial "global/menu.html" . }}
+
+    <main class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 text-center mt-5">
+                    <h1 class="display-4">{{ .Title }}</h1>                    
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-2">
+                    <nav class="navbar navbar-light">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link my-2 active" href="#">Quem Somos</a>
+                            <a class="nav-link my-2" href="#">Principais iniciativas</a>
+                            <a class="nav-link my-2" href="#">Nossa história</a>
+                        </nav>
+                    </nav>
+
+                </div>
+                <div class="col-sm-6 col-md-9">
+                    <div data-spy="scrool" data-target="#" data-offset="0">
+                        <p>{{ .Content }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+        <hr class="featurette-divider"> 
+        {{ partial "global/footer.html" . }}
+
+
+</body>
