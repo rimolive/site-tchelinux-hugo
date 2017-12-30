@@ -8,28 +8,15 @@
     <div class="container">
         <!-- Heading Row -->
         <div class="row">
-            <div class="col-4 mt-4">
-                <img class="img-fluid img-rounded" src="images/logo.png" alt="">
+            <div class="col-4 mt-5">
+                <img class="img-fluid img-rounded" src="{{ .Site.BaseURL }}/{{ .Params.Tux }}" alt="{{ .Site.Title }}">
             </div>
             <!-- /.col-md-8 -->
-            <div class="col-8 mt-4">
-                <h1>Tchelinux, Software Livre em Ação!</h1>
-                <p>
-					<br />
-					A paixão pelo <b>Software Livre</b> assim como o desejo de <b>compartilhar conhecimentos</b> fez com que um grupo de usuários se reunisse e trabalhasse junto na organização de eventos para a divulgação de ferramentas e da filosofia <i>open source</i> em <b>instituições educacionais do Rio Grande do Sul</b>. Aproveitando a ideia de voluntariado, o grupo decidiu que os <b>eventos seriam sempre gratuitos</b>, porém os <b>participantes são encorajados a doar 2kg de alimentos não-perecíveis</b>, que são <b>encaminhados a instituições de caridade</b> da cidade onde ocorre o evento.<br />
-					<br />
-					Desde <b>Outubro de 2006</b> o <b>Tchelinux</b> realizou <b>80 eventos</b> em <b>20 cidades</b> com o auxílio de <b>milhares de voluntários</b>, que ajudaram na organização e apresentando <b>1203 palestras</b> foram assistidas por <b>9656 pessoas</b> que doaram <b>15761 kg de alimentos</b> para <b>36 instituições de caridade</b>.
-					<br />
-					<br />
-					Há <b>muito trabalho</b> a ser feito e <b>todos são bem-vindos</b> a participar do <b>Tchelinux</b> e ajudar a divulgar o <b>Software Livre</b> e levar o conhecimento à todos cantos do <b>Rio Grande do Sul!</b>
-					<br />
-					<br />
-					Contamos com você!
-					<br />
+            <div class="col-8 mt-5">
+                {{ .Content }}
 				<br />
-
 				<br />
-		</p>
+				<br />
                 <!-- <a class="btn btn-primary btn-lg" href="#">Saiba mais...</a> -->
             </div>
             <!-- /.col-md-4 -->
@@ -61,13 +48,13 @@
             <div class="col-6">
                 <h2>Participe!</h2>
                 <p>O Tchelinux possui vários canais de comunicação (Lista de discussão, Canal de IRC, Redes Socias etc), e todos são bem-vindos para participar.</p>
- 		 <a class="btn btn-default" href="../wiki.tchelinux.org/index.html#!como_participar.md">Saiba mais...</a>
+ 		 <a class="btn btn-default" href="{{ .Site.BaseURL }}/como-participar/">Saiba mais...</a>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-6">
                 <h2>Divulgue!</h2>
                 <p>Gostou da ideia? Divulgue o Tchelinux na sua Escola ou Comunidade e ajude a levar os eventos do grupo até a sua cidade!</p>
-                <a class="btn btn-default" href="../wiki.tchelinux.org/index.html#!como_ajudar.md">Saiba mais...</a>
+                <a class="btn btn-default" href="{{ .Site.BaseURl }}/contato/">Saiba mais...</a>
             </div>
             <!-- /.col-md-4 -->
         </div>

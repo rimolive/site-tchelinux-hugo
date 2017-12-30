@@ -7,6 +7,11 @@ theme = "tuz"
 # Parametros customizados
 [params]
   description = "Grupo de Usuários de Software Livre do Rio Grande do Sul"
+  grupoGoogle = ""
+  facebook = ""
+  gplus = ""
+  twitter = ""
+  
 
 # Configuração dos links permanentes
 [permalinks]

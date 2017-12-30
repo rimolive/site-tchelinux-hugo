@@ -2,9 +2,9 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Tuz"
-license = "MIT"
+license = "GPLv3"
 licenselink = "https://github.com/rtomkiel/tuz/LICENSE.md"
-description = "Template criado para o site tchelinux.org"
+description = "Template criado para o site tchelinux.org, com Bootstrap 4"
 homepage = "https://tchelinux.org/"
 tags = []
 features = []
