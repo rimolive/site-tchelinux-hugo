@@ -6,9 +6,9 @@ O Objetivo desse projeto é permitir o fácil gerenciamento de conteúdo, simpli
 #### O que é o Hugo?
 
 Hugo é um gerador de sites estáticos, totalmente hackeável, escrito em Go.   
-Para saber mais, acesse os seguintes links: 
-    - [Gerador de Sites Estáticos](https://blog.doseextra.com/gerador-de-site/ "Gerador de sites estáticos")
-    - [Instalando o Hugo](https://blog.doseextra.com/comecando-com-o-hugo/ "Instalando e configurando o Hugo")
+Para saber mais, acesse os seguintes links:    
+    - [Gerador de Sites Estáticos](https://blog.doseextra.com/gerador-de-site/ "Gerador de sites estáticos")    
+    - [Instalando o Hugo](https://blog.doseextra.com/comecando-com-o-hugo/ "Instalando e configurando o Hugo")   
 
 O conteúdo do site é escrito em **Markdown** e alterações podem ser submetidas através do [GitHub](https://blog.doseextra.com/github-para-iniciantes/)  
 
@@ -25,12 +25,11 @@ Também aguardando para ser desenvolvida, está a documentação completa do pro
 #### Envolvidos
 
 ***Primeiramente, um obrigado aos que desenvolveram a versão atual do site, com BootStrap 3.***   
-Template do site em BootStrap v4: [Régis Tomkiel](https://blog/doseextra.com/author/regis/ )   
-Migração para o Hugo: [Régis Tomkiel](https://blog/doseextra.com/author/regis/ )   
+Template do site em BootStrap v4: [Régis Tomkiel](https://blog/doseextra.com/author/regis/ "Regis Tomkiel" )   
+Migração para o Hugo: [Régis Tomkiel](https://blog/doseextra.com/author/regis/ "Regis Tomkiel" )   
 
 
 #### Links úteis
-
-    - [Hugo](https://gohugo.io)
-    - [BootStrap](https://getbootstrap.com)
-    - [Tchelinux.org](https://tchelinux.org)
+- [Hugo](https://gohugo.io )  
+- [BootStrap](https://getbootstrap.com)   
+- [Tchelinux.org](https://tchelinux.org)   
