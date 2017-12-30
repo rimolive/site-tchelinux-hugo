@@ -1,14 +1,17 @@
 {{ define "main" }}
-
+  <!-- Início "main" com conteúdo da página -->
     <main class="mt-5">
         <div class="container">
+          <!-- Início Div título -->
             <div class="row">
                 <div class="col-sm-12 col-md-12 text-center mt-5">
                     <h1 class="display-4">{{ .Title }}</h1>
                 </div>
             </div>
+            <!-- Fim Título -->
             <hr class="featurette-divider">
             <div class="row">
+              <!-- Dúvida sobre o modelo de conteúdo e por isso dados de teste -->
                 <div class="col-sm-6 col-md-3 mb-2">
                     <nav class="navbar navbar-light">
                         <nav class="nav nav-pills flex-column">
@@ -19,13 +22,15 @@
                     </nav>
 
                 </div>
+                <!-- Início div do conteúdo da página -->
                 <div class="col-sm-6 col-md-9">
                     <div data-spy="scrool" data-target="#" data-offset="0">
                         <p>{{ .Content }}</p>
                     </div>
                 </div>
+                <!-- Fim div do conteúdo da página -->
             </div>
         </div>
-
     </main>
+    <!-- Fim "main" com conteúdo da página -->
   {{ end }}

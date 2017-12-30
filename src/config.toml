@@ -1,8 +1,12 @@
 # Parametros iniciais e fundamentais para o funcionamento
 baseURL = "http://example.org/"
 languageCode = "pt-br"
-title = "Tchelinux ORG"
+title = "Tchelinux"
 theme = "tuz"
+
+# Parametros customizados
+[params]
+  description = "Grupo de Usuários de Software Livre do Rio Grande do Sul"
 
 # Configuração dos links permanentes
 [permalinks]
@@ -10,25 +14,13 @@ theme = "tuz"
 
 # Menu principal do site
 [[menu.main]]
-  name = "Sobre o Tchelinux"
+  name = "Sobre"
   identifier = "sobre"
-  url = "/sobre/"
+  url = "/#/"
   weight = 1
 
 [[menu.main]]
-  name = "Como participar"
-  identifier = "participar"
-  url = "/como-participar/"
-  weight = 2
-
-[[menu.main]]
-  name = "Como ajudar"
-  identifier = "ajudar"
-  url = "/como-ajudar/"
+  name = "Participe"
+  identifier = "participe"
+  url = "/#/"
   weight = 3
-
-[[menu.main]]
-  name = "Calendário de eventos"
-  identifier = "calendario"
-  url = "/calendario/"
-  weight = 4

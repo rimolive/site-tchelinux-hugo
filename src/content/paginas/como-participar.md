@@ -1,6 +1,13 @@
 +++
 title = "Como participar"
 description = "Tire suas dúvidas de como participar da comunidade"
+
+[menu.main]
+  name = "Como Participar"
+  parent = "participe"
+  identifier = "participar"
+  weight = 2
+  url = "/como-participar/"
 +++
 
 ### Lista de Discussão

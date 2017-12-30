@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<htm>
 
+<!-- Chamada do "head" da site -->
 {{ partial "global/head.html" . }}
 
+<!-- Construção do esqueleto do site -->
 <body>
 
+<!-- Chamada do top menu -->
 {{ partial "global/menu.html" . }}
+
+<!-- Chamada do "main" correspondente à taxonomia ou id -->
 {{ block "main" . }}
 {{ end }}
 
 <hr class="featurette-divider">
+
+<!-- Chamada do footer do site -->
 {{ partial "global/footer.html" . }}
+
+<!-- Chamada dos scripts da página -->
 {{ partial "global/scripts.html" . }}
 
 </body>
+<!-- Fim do body -->
+
 </html>
+<!-- Fechamento do site -->
