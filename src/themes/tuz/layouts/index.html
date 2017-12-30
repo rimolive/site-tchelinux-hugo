@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tchelinux">
-    <meta name="author" content="Tchelinux">
-
-    <title>Tchelinux | Grupo de Usuários de Software Livre do Rio Grande do Sul</title>
-
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    {{ partial "global/estilos.html" . }}
-
-</head>
-
-<body>
-
-    <!-- Navigation -->
-   {{partial "global/menu.html" . }}
+{{ define "main" }}
 
    <!-- {{ partial "paginas/home/carousel.html" . }} -->
 
@@ -46,11 +23,11 @@
 					<br />
 					Há <b>muito trabalho</b> a ser feito e <b>todos são bem-vindos</b> a participar do <b>Tchelinux</b> e ajudar a divulgar o <b>Software Livre</b> e levar o conhecimento à todos cantos do <b>Rio Grande do Sul!</b>
 					<br />
-					<br />	
+					<br />
 					Contamos com você!
 					<br />
 				<br />
-					
+
 				<br />
 		</p>
                 <!-- <a class="btn btn-primary btn-lg" href="#">Saiba mais...</a> -->
@@ -65,9 +42,9 @@
         <div class="row" style="display:none">
             <div class="col-lg-12">
                 <div class="well text-center">
-		
+
                     <b>Atenção:</b> Dia <b>9 de Dezembro</b> teremos o <a href="../poa.tchelinux.org/index.html"><b>Tchelinux 2017 Porto Alegre</b></a> na <b>Faculade Senac Porto Alegre</b>, participe! <b><a href="../docs.google.com/forms/d/e/1FAIpQLSdqLOM0RfKg25xhwD3DSLqyveTZhmPNzr4OfTNFoYaNyK3Zjg/viewform0e12.html">Faça aqui a sua inscrição!</a></b>
-                </div> 
+                </div>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -78,7 +55,7 @@
             <div class="col-4" style="display:none">
                 <h2>Eventos!</h2>
                 <p>O calendário de eventos do Tchelinux 2017 está sendo organizado no momento e os locais e datas serão divulgados nos próximos meses.</p>
-                <a class="btn btn-default" href="../wiki.tchelinux.org/index.html#!eventos/calendario.md">Saiba mais...</a> 
+                <a class="btn btn-default" href="../wiki.tchelinux.org/index.html#!eventos/calendario.md">Saiba mais...</a>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-6">
@@ -97,15 +74,5 @@
         <!-- /.row -->
     </div>
 
-
-    <hr class="featurette-divider">
-
-    <!-- Footer -->
-{{ partial "global/footer.html" . }}
-
 </main>
-{{ partial "global/scripts.html" . }}
-
-</body>
- 
-</html>
+{{ end }}

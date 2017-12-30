@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-{{ partial "global/head.html" . }}
-
-<body>
-
-    {{partial "global/menu.html" . }}
+{{ define "main" }}
 
     <main class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 text-center mt-5">
-                    <h1 class="display-4">{{ .Title }}</h1>                    
+                    <h1 class="display-4">{{ .Title }}</h1>
                 </div>
             </div>
             <hr class="featurette-divider">
@@ -35,9 +28,4 @@
         </div>
 
     </main>
-    
-        <hr class="featurette-divider"> 
-        {{ partial "global/footer.html" . }}
-
-
-</body>
+  {{ end }}

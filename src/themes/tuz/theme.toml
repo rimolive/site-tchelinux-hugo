@@ -3,19 +3,13 @@
 
 name = "Tuz"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/rtomkiel/tuz/LICENSE.md"
+description = "Template criado para o site tchelinux.org"
+homepage = "https://tchelinux.org/"
 tags = []
 features = []
 min_version = "0.31.1"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Regis Tomkiel"
+  homepage = "rtomkiel.github.io"

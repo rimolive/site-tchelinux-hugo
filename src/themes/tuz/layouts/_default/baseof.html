@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+{{ partial "global/head.html" . }}
+
+<body>
+
+{{ partial "global/menu.html" . }}
+{{ block "main" . }}
+{{ end }}
+
+<hr class="featurette-divider">
+{{ partial "global/footer.html" . }}
+{{ partial "global/scripts.html" . }}
+
+</body>
+</html>

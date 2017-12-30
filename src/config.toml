@@ -1,4 +1,34 @@
+# Parametros iniciais e fundamentais para o funcionamento
 baseURL = "http://example.org/"
 languageCode = "pt-br"
 title = "Tchelinux ORG"
 theme = "tuz"
+
+# Configuração dos links permanentes
+[permalinks]
+  paginas = "/:filename"
+
+# Menu principal do site
+[[menu.main]]
+  name = "Sobre o Tchelinux"
+  identifier = "sobre"
+  url = "/sobre/"
+  weight = 1
+
+[[menu.main]]
+  name = "Como participar"
+  identifier = "participar"
+  url = "/como-participar/"
+  weight = 2
+
+[[menu.main]]
+  name = "Como ajudar"
+  identifier = "ajudar"
+  url = "/como-ajudar/"
+  weight = 3
+
+[[menu.main]]
+  name = "Calendário de eventos"
+  identifier = "calendario"
+  url = "/calendario/"
+  weight = 4
